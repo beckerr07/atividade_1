@@ -1,4 +1,4 @@
-import pool from './database/conexao.js';
+import pool from './src/database/conexao.js';
 
 try {
     const [equipamentos] = await pool.query(
